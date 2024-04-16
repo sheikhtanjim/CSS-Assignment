@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html, body{
+       height: 100%;
+       width: 100%;
+      }
+      #main{
+         width: 330px;
+         height: 350px;
+         background-color: rgb(127, 255, 212);         
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%,-50%);
+         border-radius: 10px;
+      }
+      #card{
+          height: 250px;
+          width: 300px;
+          margin-top: 15px;
+          margin-left: 15px;
+          margin-right: 15px;
+          border-radius: 8px;
+          background: linear-gradient(to left top, rgb(101, 212, 101),rgb(53, 53, 231));
+      }
+      h2{
+        padding: 20px;
+        color: aliceblue;
+      }
+      #word{
+        margin-left: 20px;
+        color: aliceblue;
+      }
+      .span1{
+        background-color: rgb(0, 0, 255);
+        padding: 5;
+      }
+      .span2{
+       margin-left: 10px;
+       border: 1px solid aliceblue;
+       padding: 5px;
+       border-radius: 10px;
+      }
+      img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50px;
+        
+      }
+      .img{
+        margin-top: 30px;
+        margin-left: 20px;
+        object-fit: contain;
+      }
+     p{
+      margin-left: 20px;
+      margin-top: 20px;
+     }
+    </style>
+</head>
+<body>
+    <div id="main">
+       <div id="card">
+            <h2>FULL STACK WEB DEVELOPMENT 2.0</h2>
+            <div id="word">
+              <span class="span1">HINGLISH</span><span class="span2">SIGMA 2.O(<small>BATCH</small>)</span>
+            </div>
+             <div class="img">
+              <img src="https://cdn.pwskills.com/user/profile_pictures/63a0c12f80762853708f4967.jpg" alt="">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Gyksl8yEzz3duu2orhCdDMYNGXqMMqL4rw&s" alt="">
+              <img src="data:image/jpeg;base64,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" alt="">
+             </div>
+       </div>
+         <p>Course Name: PW SKills sigma 2.O</p>
+    </div>
+</body>
+</html>

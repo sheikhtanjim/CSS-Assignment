@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    height: 80px;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+     background-color: rgb(100,149,237)    ;
+     
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between ;
+}   
+
+nav, a{
+    padding: 8px 8px 8px;
+    font-size: 18px;
+    color: #ddd0c1;
+
+}
+ #home:hover{
+  border-style: solid; 
+  border-color: red;
+  border-radius: 20px;
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
+}
+ #content:hover{
+  border-style: dashed; 
+  border-color: rgb(0, 255, 0);
+  border-radius: 20px;
+  color: rgb(0, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+
+}
+ #aboutus:hover{
+  border-style: dotted; 
+  border-color: rgb(0, 204, 255);
+  border-radius: 20px;
+  color: rgb(9, 255, 0);
+  font-size: 20px;
+  font-weight: 600;
+
+}
+ #blog:hover{
+  border-style: double dashed; 
+  border-color: red;
+  border-radius: 20px;
+  color: rgb(217, 255, 0);
+  font-size: 20px;
+  font-weight: 600;
+
+}
+ #login:hover{
+  border-style: double dotted; 
+  border-color: red;
+  border-radius: 20px;
+  color: #ff006a;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="home" href="">Home</a>
+            <a id="aboutus" href="">About Us</a>
+            <a id="content" href="">Content</a>
+            <a id="blog" href="">Blog</a>
+            <a id="login" href="">Login</a>
+        </nav>
+    </header>
+</body>
+</html>
